@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1340px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none; 
+    color: #333333;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+header {
+    background-color: #F3D7B7;
+}
+
+.coffeeSection {
+    background-color: #F3D7B7;
+    padding-top: 50px;
+}
+
+.leftcoffee {
+    width: 464px;
+    padding: 20px auto;
+    
+}
+
+.leftcoffee h1 {
+    font-size: 48px;
+    margin-bottom: 47px;
+}
+
+.btn{
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    background-color: #0A775F;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 265px;
+}
+.rightcoffee {
+    position: relative;
+    
+    
+}
+.sertifikat {
+    position: absolute;
+    right: 520px;
+    top: -620px;
+    z-index: 99;
+}
+.cap {
+    width: 710px;
+    position: absolute;
+    right: -83px;
+    top: -550px;
+    z-index: 0;
+}
+
+.collection {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.collContainer {
+    margin-top: 175px;
+    width: 1117px;
+}
+.cofr p {
+    width: 500px;
+    font-size: 22px;
+    color: #333333;
+}
+.cofr {
+    display: flex;
+    align-items: center;
+}
+
+.cofr h2 {
+    font-size: 43px;
+    margin-bottom: 10px;
+}
+
+.lop {
+    margin-left: 115px;
+}
+
+.coffeesimg {
+    width: 450px;
+}
+
+footer{
+    background-color: #F3D7B7;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.le {
+    padding-bottom: 305px;
+}
+
+.nocap {
+    right: 0;
+}
+
+.sert {
+    right: 580px;
+}
+
+.commitContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.commitContainer h3 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.our {
+    width: 700px;
+}
+.qualitySection{
+    background-color: #C99B67;
+}
+.qualityContainer {
+    position: relative;
+    color: white;
+    height: 510px;
+}
+
+.comp {
+    width: 600px;
+    padding-top: 109px;
+}
+.comp h2 {
+    width: 400px;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.negrcoffee{
+position: absolute;
+right: 0;
+top: -150px;
+}
